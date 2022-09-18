@@ -21,7 +21,7 @@ client = Client(account_sid, auth_token)
 def main(pin, ct):
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome('/Users/rajanjaiswal/Downloads/chromedriver')
+    driver = webdriver.Chrome('/Users/chayan/Downloads/chromedriver')
     driver.get(URL)
     info = f"*Covid Vaccine Availability in {pin}*\n\n"
     age_group = "Age 18+"
